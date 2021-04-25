@@ -1,0 +1,310 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ECEEF1;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+
+
+.sign-in {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sign-in-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.sign-in a:hover {
+    text-decoration-line: underline;
+}
+
+.sign-in button {
+    display: flex;
+    margin: 0 20px auto;
+    gap: 8px;
+    padding: 6px 20px;
+    background-color: #0077C5;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.sign-in-btn img {
+    width: 16px;
+    background: transparent;
+}
+
+.sign-in-btn span {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.logo-up {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    /* margin: 30px auto; */
+}
+
+.logo-up img {
+    width: 118px;
+    cursor: pointer;
+}
+
+.logo-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-down div {
+    display: flex;
+    align-items: center;
+    /* justify-items: center; */
+    gap: 5px;
+}
+
+.logo-down img {
+    width: 23px;
+    border-radius: 50%;
+}
+
+.logo-down a {
+    font-size: 18px;
+    color: gray;
+}
+
+.form {
+    width: 380px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 14px;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.form-info a {
+    line-height: 20px;
+}
+
+.form-info a:hover {
+    text-decoration-line: underline;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0099ff;
+    box-shadow: 0px 0px 5px 0px #0099ff;
+}
+
+.phone {
+    margin-bottom: 30px;
+}
+
+.phone input {
+    margin-bottom : 5px;
+}
+
+.phone span {
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+.create-account {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #0077C5;
+    font-size: 16px;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 0px 0px gray;
+    cursor: pointer;
+}
+
+.terms {
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    line-height: 18px;
+}
+
+.google {
+    width: 378px;
+    background-color: #ECEEF1;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(141, 144, 150);
+    padding: 22px 0;
+    margin: 0 0 -30px 0;
+}
+
+.terms a:hover, .google a:hover {
+    text-decoration-line: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-up {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 80px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: rgb(80, 80, 80);
+}
+
+.footer-links a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-rights {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-down {
+    background-color: white;
+    padding: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-down a:hover {
+    text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sign-in-link {
+        display: none;
+    }
+}

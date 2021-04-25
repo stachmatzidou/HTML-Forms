@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <header>
+      <div class="sign-in">
+        <div class="sign-in-left">
+          <span>Already have an Intuit account?</span>
+          <a
+            href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dff7dea5d-adcb-4f2a-b10e-ee118291264e%26adobe_mc%3DMCMID%253D73858714158080255052773804408215191989%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1607715239%26ivid%3Dff7dea5d-adcb-4f2a-b10e-ee118291264e%26ivid%3Dc93783d9-b370-4fab-9b5d-e0e1e2a56a93#"
+            >I forgot my User ID or Password</a
+          >
+        </div>
+        <button class="sign-in-btn" aria-label="Sign in button">
+          <img src="images/lock.png" alt="White lock" />
+          <span>Sign In</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="logo">
+        <div class="logo-up">
+          <img src="images/intuit.png" alt="Intuit logo" />
+        </div>
+        <div class="logo-down">
+          <div class="mint">
+            <a href="https://mint.intuit.com/" target="_blank">
+              <img src="images/mint.png" alt="Mint logo" />
+            </a>
+            <a href="https://mint.intuit.com/" target="_blank">mint</a>
+          </div>
+          <div class="quickbooks">
+            <a href="https://quickbooks.intuit.com/" target="_blank">
+              <img src="images/quickbooks.png" alt="QuickBooks logo" />
+            </a>
+            <a href="https://quickbooks.intuit.com/" target="_blank"
+              >quickbooks</a
+            >
+          </div>
+          <div class="turbotax">
+            <a href="https://turbotax.intuit.com/" target="_blank">
+              <img src="images/turbotax.png" alt="Turbotax logo" />
+            </a>
+            <a href="https://turbotax.intuit.com/" target="_blank">turbotax</a>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="form-info">
+          <span class="heading">Create an Intuit account</span>
+          <span>One account for everything Intuit, including Mint.</span>
+          <a href="https://accounts-help.intuit.com/app/intuit/1995107"
+            >Learn more</a
+          >
+          <div class="sign-in-link">
+            <span>Already have an account? <a href="https://accounts.intuit.com/index.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Dff7dea5d-adcb-4f2a-b10e-ee118291264e%26adobe_mc%3DMCMID%253D73858714158080255052773804408215191989%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1607715239%26ivid%3Dff7dea5d-adcb-4f2a-b10e-ee118291264e%26ivid%3Dc93783d9-b370-4fab-9b5d-e0e1e2a56a93">Sign In</a></span>
+          </div>
+        </div>
+        <form action="#" method="get">
+          <label for="email">Email address</label><br>
+          <input type="email" id="email" name="email" autofocus /><br>
+          <div class="phone">
+            <label for="phone">Phone (recommended)</label><br>
+            <input type="tel" id="phone" name="phone"/><br>
+            <span>Standard call, messaging or data rates may apply.</span><br>
+          </div>
+          <label for="password">Password</label><br>
+          <input type="text" id="password" name="password" /><br>
+          <button class="create-account">
+            <img src="images/lock.png" alt="" />
+            <span>Create Account</span>
+          </button>
+        </form>
+        <div class="terms">
+            <span>
+                By clicking Create Account, you agree to our<br><a href="https://mint.intuit.com/terms" target="_blank">Terms</a> and have read and acknowledged our <a href="https://www.intuit.com/privacy/statement/" target="_blank">Global Privacy Statement</a>.
+            </span>
+        </div>
+        <div class="google">
+            <span>
+                Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms of Use</a>.
+            </span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-up">
+        <div class="footer-links">
+          <a href="https://www.intuit.com/legal/" target="_blank">Legal</a>
+          <a href="https://www.intuit.com/privacy/statement/" target="_blank">Privacy</a>
+          <a href="https://security.intuit.com/" target="_blank">Security</a>
+        </div>
+        <div class="footer-rights">
+          <span>
+            © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+          </span>
+        </div>
+      </div>
+      <div class="footer-down">
+        <a href="#">Privacy Settings</a>
+      </div>
+    </footer>
+  </body>
+</html>
